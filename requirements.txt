@@ -1,0 +1,10 @@
+requests
+Pillow
+numpy
+torch
+open_clip_torch
+tiktoken
+# torchvision (usually comes with torch, but good to specify if a specific version is needed)
+# transformers (if you decide to keep any direct transformer use)
+# diffusers (if you decide to keep any direct diffusers use)
+aesthetic-predictor-v2-5 # Or however it's installed
