@@ -41,16 +41,3 @@ The system is designed for users interested in automated art generation, prompt 
     *   A capable instruction-following model loaded, preferably one that also supports image input for the review stage.
 4.  **OpenCLIP and Aesthetic Predictor Models:**
     *   The script uses pre-trained OpenCLIP (`ViT-H-14` from `laion2b_s32b_b79k`) and the `aesthetic-predictor-v2_5` model. An internet connection may be required for the first run if these are not cached.
-
-## Setup & Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/[Your GitHub Username]/[Your Repo Name].git
-    cd [Your Repo Name]
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-   ```
