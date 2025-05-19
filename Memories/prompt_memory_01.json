@@ -1,0 +1,110 @@
+{
+    "00000": {
+        "prompt": "Stoic badger with goggles and feather, Art Nouveau style, emerald green & gold florals, bold black outlines on a sticker background.",
+        "original_prompt": "sticker, A stylized art nouveau portrait of a stoic badger wearing ornate brass goggles and a feathered cap, surrounded by swirling floral patterns in emerald green and gold, thick white outline, intricate details, bold linework, high resolution.",
+        "scores": {
+            "clip_similarity": 4.049854874610901,
+            "ava_score": 6.0,
+            "agent_score": 8.75,
+            "combined_score": 5.278488499777658
+        },
+        "seed": 3146752449,
+        "image_filename": "00000.png",
+        "comfy_prompt_id": "0c860b61-20cd-4355-be56-a54c24159e71",
+        "generation_parameters": {
+            "workflow_source": "Script1_ComfyUI_SD3_type",
+            "image_resolution": "1024x1024",
+            "negative_prompt": " "
+        }
+    },
+    "00001": {
+        "prompt": "Stylized sticker of a glowing blue-purple jellyfish floating in a vibrant, starry cosmic nebula with a crisp white border.",
+        "original_prompt": "sticker, bioluminescent jellyfish gracefully drifting through a vibrant cosmic nebula, swirling purple and teal gas clouds, sharp white outline, intricate details, stylized vector art, high contrast, sticker sheet design.",
+        "scores": {
+            "clip_similarity": 4.245386123657227,
+            "ava_score": 6.1875,
+            "agent_score": 8.15,
+            "combined_score": 5.358077784946986
+        },
+        "seed": 4029632377,
+        "image_filename": "00001.png",
+        "comfy_prompt_id": "5a107a72-d0e7-4213-bfa0-ab8b9302752e",
+        "generation_parameters": {
+            "workflow_source": "Script1_ComfyUI_SD3_type",
+            "image_resolution": "1024x1024",
+            "negative_prompt": " "
+        }
+    },
+    "00002": {
+        "prompt": "Steampunk hummingbird with gear wings perches on a clockwork flower; Victorian style, bold outlines, brass/copper tones and vibrant colors.",
+        "original_prompt": "sticker, Intricate brass and copper mechanical hummingbird with glowing gears for wings, perched on a miniature clockwork flower, detailed Victorian aesthetic, bold white outline, dynamic pose, sticker design.",
+        "scores": {
+            "clip_similarity": 3.6531251668930054,
+            "ava_score": 5.84375,
+            "agent_score": 8.75,
+            "combined_score": 5.007142952510288
+        },
+        "seed": 3531703433,
+        "image_filename": "00002.png",
+        "comfy_prompt_id": "a287d9fd-f684-4edd-bb97-76f49e0bce48",
+        "generation_parameters": {
+            "workflow_source": "Script1_ComfyUI_SD3_type",
+            "image_resolution": "1024x1024",
+            "negative_prompt": " "
+        }
+    },
+    "00003": {
+        "prompt": "Neon blue anglerfish with a glowing lure swims amidst vibrant turquoise and violet deep-sea plants in a stylized sticker design.",
+        "original_prompt": "sticker, Bioluminescent anglerfish with oversized lure illuminating swirling deep-sea flora, neon turquoise and electric violet hues, dramatic lighting, bold graphic style, crisp white border.",
+        "scores": {
+            "clip_similarity": 4.076503217220306,
+            "ava_score": 6.1875,
+            "agent_score": 8.12,
+            "combined_score": 5.257287552697318
+        },
+        "seed": 2711445567,
+        "image_filename": "00003.png",
+        "comfy_prompt_id": "bc0c5871-ddab-4d7d-a54b-c1127431805e",
+        "generation_parameters": {
+            "workflow_source": "Script1_ComfyUI_SD3_type",
+            "image_resolution": "1024x1024",
+            "negative_prompt": " "
+        }
+    },
+    "00004": {
+        "prompt": "Stylized sticker of a grinning anglerfish with turquoise and purple bioluminescence, sharp teeth, and a bold white border.",
+        "original_prompt": "sticker, Bioluminescent deep-sea coral shaped like a grinning anglerfish, vibrant turquoise & electric purple hues, intricate glowing details, stylized design, bold white outline.",
+        "scores": {
+            "clip_similarity": 3.187711536884308,
+            "ava_score": 6.09375,
+            "agent_score": 8.12,
+            "combined_score": 4.722620878219604
+        },
+        "seed": 363738293,
+        "image_filename": "00004.png",
+        "comfy_prompt_id": "464ca47c-300b-4416-a822-b073ffe59572",
+        "generation_parameters": {
+            "workflow_source": "Script1_ComfyUI_SD3_type",
+            "image_resolution": "1024x1024",
+            "negative_prompt": " "
+        }
+    },
+    "00005": {
+        "prompt": "Regal snow leopard head sticker with teal/coral floral patterns, striking blue eyes, and a bold white border against a gray background.",
+        "original_prompt": "sticker, A regal snow leopard portrait, intricate botanical patterns woven into its fur, vibrant teal and coral accents, dramatic lighting, bold white outline for sticker edge.",
+        "scores": {
+            "clip_similarity": 3.781992793083191,
+            "ava_score": 6.90625,
+            "agent_score": 8.75,
+            "combined_score": 5.384353024618966
+        },
+        "seed": 3606058156,
+        "image_filename": "00005.png",
+        "comfy_prompt_id": "f1e377ed-fd03-4f4b-aae8-4841822586cf",
+        "generation_parameters": {
+            "workflow_source": "Script1_ComfyUI_SD3_type",
+            "image_resolution": "1024x1024",
+            "negative_prompt": " "
+        }
+    }
+}

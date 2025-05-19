@@ -1,4 +1,10 @@
 Work in progress **
+Vision enable llm running on LMStudio is required, I recommend Gemma-3
+Also comfyUI needs to be running
+I need to run the llm on a seperate computer to make this work, but there are less vram intesive models that can be used. 
+I've had past iterations use flux and SDXL 
+Currently this is setup to be a sticker design generator. I recommend adjusting the system prompt to better suite your needs. 
+
 
 # Iterative AI Image Generation with LLM & ComfyUI
 
