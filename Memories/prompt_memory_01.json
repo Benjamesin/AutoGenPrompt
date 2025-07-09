@@ -106,5 +106,23 @@
             "image_resolution": "1024x1024",
             "negative_prompt": " "
         }
+    },
+    "00006": {
+        "prompt": "Majestic peacock sticker, art nouveau style, vibrant colors, bold white outline on transparent background.",
+        "original_prompt": "sticker, A majestic peacock with iridescent feathers and intricate feather details, art nouveau inspired, vibrant colors (emerald green, sapphire blue, amethyst purple), bold white outline on a transparent background for sticker application, dynamic pose, high quality rendering.",
+        "scores": {
+            "clip_similarity": 3.7312397360801697,
+            "ava_score": 5.34375,
+            "agent_score": 0.0,
+            "combined_score": 3.6589227063315257
+        },
+        "seed": 2416864047,
+        "image_filename": "00006.png",
+        "comfy_prompt_id": "4c72248e-1559-4d8b-ae74-19f22d08ebe8",
+        "generation_parameters": {
+            "workflow_source": "Script1_ComfyUI_SD3_type",
+            "image_resolution": "1024x1024",
+            "negative_prompt": " "
+        }
     }
 }

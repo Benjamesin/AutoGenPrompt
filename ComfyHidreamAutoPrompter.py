@@ -92,6 +92,20 @@ except Exception as e:
     print(f"ERROR: Error loading aesthetic predictor: {e}. AVA scoring will be unavailable.")
     AVA_AVAILABLE = False
 
+# --- Main HiDream Model Path Variable --- diffusion_models folder
+MAIN_MODEL_NAME = "hidream_i1_fast_fp8.safetensors"  # Main HiDream model
+
+# --- CLIP Model Path Variables (for ComfyUI workflow "in comfy") ---
+# clip_l: Local CLIP-L model for main text encoding "text_encoders" folder
+CLIP_NAME1 = "clip_l_hidream.safetensors"  # Main CLIP-L model "clip_l_hidream.safetensors"
+# clip_g: Global CLIP-G model for global context
+CLIP_NAME2 = "clip_g_hidream.safetensors"  # Global CLIP-G model "clip_g_hidream.safetensors"
+# t5xxl: T5XXL language model for prompt understanding
+CLIP_NAME3 = "t5xxl_fp8_e4m3fn_scaled.safetensors"  # T5XXL model "t5xxl_fp8_e4m3fn_scaled.safetensors"
+# llama: Llama 3.1 8B Instruct for advanced prompt context
+CLIP_NAME4 = "llama_3.1_8b_instruct_fp8_scaled.safetensors"  # Llama 3.1 8B Instruct "llama_3.1_8b_instruct_fp8_scaled.safetensors"
+
+# --- ComfyUI Workflow Creation ---
 def create_workflow(prompt, negative_prompt="", seed=None, width=1024, height=1024):
     """
     Creates a ComfyUI workflow for the HiDream fast model.
@@ -114,23 +128,23 @@ def create_workflow(prompt, negative_prompt="", seed=None, width=1024, height=10
         "69": {  # UNETLoader
             "class_type": "UNETLoader",
             "inputs": {
-                "unet_name": "hidream_i1_fast_fp8.safetensors",
+                "unet_name": MAIN_MODEL_NAME,
                 "weight_dtype": "default"
             }
         },
         "54": {  # QuadrupleCLIPLoader
             "class_type": "QuadrupleCLIPLoader",
             "inputs": {
-                "clip_name1": "hidream\\clip_l_hidream.safetensors",
-                "clip_name2": "hidream\\clip_g_hidream.safetensors",
-                "clip_name3": "hidream\\t5xxl_fp8_e4m3fn_scaled.safetensors",
-                "clip_name4": "hidream\\llama_3.1_8b_instruct_fp8_scaled.safetensors"
+                "clip_name1": CLIP_NAME1,  # Main CLIP-L
+                "clip_name2": CLIP_NAME2,  # Global CLIP-G
+                "clip_name3": CLIP_NAME3,  # T5XXL
+                "clip_name4": CLIP_NAME4   # Llama 3.1 8B Instruct
             }
         },
         "55": {  # VAELoader
             "class_type": "VAELoader",
             "inputs": {
-                "vae_name": "ae.sft"
+                "vae_name": "ae.safetensors"  # VAE model for decoding
             }
         },
         "70": {  # ModelSamplingSD3
